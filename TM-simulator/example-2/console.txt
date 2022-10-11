@@ -1,0 +1,602 @@
+Input: aaabbbccc
+==================== RUN ====================
+Step  : 0
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : a a a b b b c c c 
+Head  : ^
+State : q0
+---------------------------------------------
+Step  : 0
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a b b b c c c 
+Head  :   ^
+State : q1
+---------------------------------------------
+Step  : 1
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a b b b c c c 
+Head  :     ^
+State : q1
+---------------------------------------------
+Step  : 2
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a b b b c c c 
+Head  :       ^
+State : q1
+---------------------------------------------
+Step  : 3
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a B b b c c c 
+Head  :         ^
+State : q2
+---------------------------------------------
+Step  : 4
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a B b b c c c 
+Head  :           ^
+State : q2
+---------------------------------------------
+Step  : 5
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a B b b c c c 
+Head  :             ^
+State : q2
+---------------------------------------------
+Step  : 6
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a B b b C c c 
+Head  :           ^
+State : q3
+---------------------------------------------
+Step  : 7
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a B b b C c c 
+Head  :         ^
+State : q3
+---------------------------------------------
+Step  : 8
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a B b b C c c 
+Head  :       ^
+State : q3
+---------------------------------------------
+Step  : 9
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a B b b C c c 
+Head  :     ^
+State : q3
+---------------------------------------------
+Step  : 10
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a B b b C c c 
+Head  :   ^
+State : q3
+---------------------------------------------
+Step  : 11
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a B b b C c c 
+Head  : ^
+State : q3
+---------------------------------------------
+Step  : 12
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A a a B b b C c c 
+Head  :   ^
+State : q0
+---------------------------------------------
+Step  : 13
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B b b C c c 
+Head  :     ^
+State : q1
+---------------------------------------------
+Step  : 14
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B b b C c c 
+Head  :       ^
+State : q1
+---------------------------------------------
+Step  : 15
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B b b C c c 
+Head  :         ^
+State : q1
+---------------------------------------------
+Step  : 16
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B B b C c c 
+Head  :           ^
+State : q2
+---------------------------------------------
+Step  : 17
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B B b C c c 
+Head  :             ^
+State : q2
+---------------------------------------------
+Step  : 18
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B B b C c c 
+Head  :               ^
+State : q2
+---------------------------------------------
+Step  : 19
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B B b C C c 
+Head  :             ^
+State : q3
+---------------------------------------------
+Step  : 20
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B B b C C c 
+Head  :           ^
+State : q3
+---------------------------------------------
+Step  : 21
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B B b C C c 
+Head  :         ^
+State : q3
+---------------------------------------------
+Step  : 22
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B B b C C c 
+Head  :       ^
+State : q3
+---------------------------------------------
+Step  : 23
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B B b C C c 
+Head  :     ^
+State : q3
+---------------------------------------------
+Step  : 24
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B B b C C c 
+Head  :   ^
+State : q3
+---------------------------------------------
+Step  : 25
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A a B B b C C c 
+Head  :     ^
+State : q0
+---------------------------------------------
+Step  : 26
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B b C C c 
+Head  :       ^
+State : q1
+---------------------------------------------
+Step  : 27
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B b C C c 
+Head  :         ^
+State : q1
+---------------------------------------------
+Step  : 28
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B b C C c 
+Head  :           ^
+State : q1
+---------------------------------------------
+Step  : 29
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C c 
+Head  :             ^
+State : q2
+---------------------------------------------
+Step  : 30
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C c 
+Head  :               ^
+State : q2
+---------------------------------------------
+Step  : 31
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C c 
+Head  :                 ^
+State : q2
+---------------------------------------------
+Step  : 32
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :               ^
+State : q3
+---------------------------------------------
+Step  : 33
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :             ^
+State : q3
+---------------------------------------------
+Step  : 34
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :           ^
+State : q3
+---------------------------------------------
+Step  : 35
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :         ^
+State : q3
+---------------------------------------------
+Step  : 36
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :       ^
+State : q3
+---------------------------------------------
+Step  : 37
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :     ^
+State : q3
+---------------------------------------------
+Step  : 38
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :       ^
+State : q0
+---------------------------------------------
+Step  : 39
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :         ^
+State : q4
+---------------------------------------------
+Step  : 40
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :           ^
+State : q4
+---------------------------------------------
+Step  : 41
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :             ^
+State : q4
+---------------------------------------------
+Step  : 42
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :               ^
+State : q4
+---------------------------------------------
+Step  : 43
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :                 ^
+State : q4
+---------------------------------------------
+Step  : 44
+Index : 0 1 2 3 4 5 6 7 8 9 
+Tape  : A A A B B B C C C _ 
+Head  :                   ^
+State : q4
+---------------------------------------------
+Step  : 45
+Index : 0 1 2 3 4 5 6 7 8 
+Tape  : A A A B B B C C C 
+Head  :                 ^
+State : qaccept
+---------------------------------------------
+Result: AAABBBCCC
+==================== END ====================
+Input: aabbccc
+==================== RUN ====================
+Step  : 0
+Index : 0 1 2 3 4 5 6 
+Tape  : a a b b c c c 
+Head  : ^
+State : q0
+---------------------------------------------
+Step  : 0
+Index : 0 1 2 3 4 5 6 
+Tape  : A a b b c c c 
+Head  :   ^
+State : q1
+---------------------------------------------
+Step  : 1
+Index : 0 1 2 3 4 5 6 
+Tape  : A a b b c c c 
+Head  :     ^
+State : q1
+---------------------------------------------
+Step  : 2
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b c c c 
+Head  :       ^
+State : q2
+---------------------------------------------
+Step  : 3
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b c c c 
+Head  :         ^
+State : q2
+---------------------------------------------
+Step  : 4
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b C c c 
+Head  :       ^
+State : q3
+---------------------------------------------
+Step  : 5
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b C c c 
+Head  :     ^
+State : q3
+---------------------------------------------
+Step  : 6
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b C c c 
+Head  :   ^
+State : q3
+---------------------------------------------
+Step  : 7
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b C c c 
+Head  : ^
+State : q3
+---------------------------------------------
+Step  : 8
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b C c c 
+Head  :   ^
+State : q0
+---------------------------------------------
+Step  : 9
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B b C c c 
+Head  :     ^
+State : q1
+---------------------------------------------
+Step  : 10
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B b C c c 
+Head  :       ^
+State : q1
+---------------------------------------------
+Step  : 11
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C c c 
+Head  :         ^
+State : q2
+---------------------------------------------
+Step  : 12
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C c c 
+Head  :           ^
+State : q2
+---------------------------------------------
+Step  : 13
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C c 
+Head  :         ^
+State : q3
+---------------------------------------------
+Step  : 14
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C c 
+Head  :       ^
+State : q3
+---------------------------------------------
+Step  : 15
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C c 
+Head  :     ^
+State : q3
+---------------------------------------------
+Step  : 16
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C c 
+Head  :   ^
+State : q3
+---------------------------------------------
+Step  : 17
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C c 
+Head  :     ^
+State : q0
+---------------------------------------------
+Step  : 18
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C c 
+Head  :       ^
+State : q4
+---------------------------------------------
+Step  : 19
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C c 
+Head  :         ^
+State : q4
+---------------------------------------------
+Step  : 20
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C c 
+Head  :           ^
+State : q4
+---------------------------------------------
+Step  : 21
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C c 
+Head  :             ^
+State : q4
+---------------------------------------------
+Result: AABBCCc
+==================== END ====================
+Input: aabbcca
+==================== RUN ====================
+Step  : 0
+Index : 0 1 2 3 4 5 6 
+Tape  : a a b b c c a 
+Head  : ^
+State : q0
+---------------------------------------------
+Step  : 0
+Index : 0 1 2 3 4 5 6 
+Tape  : A a b b c c a 
+Head  :   ^
+State : q1
+---------------------------------------------
+Step  : 1
+Index : 0 1 2 3 4 5 6 
+Tape  : A a b b c c a 
+Head  :     ^
+State : q1
+---------------------------------------------
+Step  : 2
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b c c a 
+Head  :       ^
+State : q2
+---------------------------------------------
+Step  : 3
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b c c a 
+Head  :         ^
+State : q2
+---------------------------------------------
+Step  : 4
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b C c a 
+Head  :       ^
+State : q3
+---------------------------------------------
+Step  : 5
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b C c a 
+Head  :     ^
+State : q3
+---------------------------------------------
+Step  : 6
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b C c a 
+Head  :   ^
+State : q3
+---------------------------------------------
+Step  : 7
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b C c a 
+Head  : ^
+State : q3
+---------------------------------------------
+Step  : 8
+Index : 0 1 2 3 4 5 6 
+Tape  : A a B b C c a 
+Head  :   ^
+State : q0
+---------------------------------------------
+Step  : 9
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B b C c a 
+Head  :     ^
+State : q1
+---------------------------------------------
+Step  : 10
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B b C c a 
+Head  :       ^
+State : q1
+---------------------------------------------
+Step  : 11
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C c a 
+Head  :         ^
+State : q2
+---------------------------------------------
+Step  : 12
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C c a 
+Head  :           ^
+State : q2
+---------------------------------------------
+Step  : 13
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C a 
+Head  :         ^
+State : q3
+---------------------------------------------
+Step  : 14
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C a 
+Head  :       ^
+State : q3
+---------------------------------------------
+Step  : 15
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C a 
+Head  :     ^
+State : q3
+---------------------------------------------
+Step  : 16
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C a 
+Head  :   ^
+State : q3
+---------------------------------------------
+Step  : 17
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C a 
+Head  :     ^
+State : q0
+---------------------------------------------
+Step  : 18
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C a 
+Head  :       ^
+State : q4
+---------------------------------------------
+Step  : 19
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C a 
+Head  :         ^
+State : q4
+---------------------------------------------
+Step  : 20
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C a 
+Head  :           ^
+State : q4
+---------------------------------------------
+Step  : 21
+Index : 0 1 2 3 4 5 6 
+Tape  : A A B B C C a 
+Head  :             ^
+State : q4
+---------------------------------------------
+Result: AABBCCa
+==================== END ====================
+Input: 
+==================== RUN ====================
+Step  : 0
+Index : 0 
+Tape  : _ 
+Head  : ^
+State : q0
+---------------------------------------------
+Step  : 0
+Index : 1 
+Tape  : _ 
+Head  : ^
+State : qaccept
+---------------------------------------------
+Result: 
+==================== END ====================
+Input: acb
+==================== RUN ====================
+Step  : 0
+Index : 0 1 2 
+Tape  : a c b 
+Head  : ^
+State : q0
+---------------------------------------------
+Step  : 0
+Index : 0 1 2 
+Tape  : A c b 
+Head  :   ^
+State : q1
+---------------------------------------------
+Result: Acb
+==================== END ====================
